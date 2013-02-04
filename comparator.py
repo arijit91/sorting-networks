@@ -1,16 +1,6 @@
-class BaseComparator():
-    def __init__(self, a, b):
-        self.input = (a, b)
-
-    def output(self):
-        if self.input[0] <= self.input[1]:
-            return (self.input[0], self.input[1])
+class Comparator():
+    def output(self, inputs):
+        if inputs[0] <= inputs[1]:
+            return (inputs[0], inputs[1])
         else :
-            return (self.input[1], self.input[0])
-
-class ReverseComparator(BaseComparator):
-    def output(self):
-        if self.input[0] > self.input[1]:
-            return (self.input[0], self.input[1])
-        else :
-            return (self.input[1], self.input[0])
+            return (inputs[1], inputs[0])

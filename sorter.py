@@ -2,22 +2,21 @@ import sys
 import comparator
 
 class Sorter():
-    def __init__(self, inputs):
+    def __init__(self, numLines):
         self.stages = []
         self.numStages = 0
 
-        self.inputs = inputs
-        self.numLines = len(self.inputs)
+        self.numLines = numLines
         
+        self.inputs = []
         self.lineVals = []
         self.outputs = []
 
     def verify(self, stage):
-        print stage
         s = set()
         cnt = 0
         for elem in stage:
-            for x in elem:
+            for x in elem[:-1]:
                 if (self.numLines >= x >= 1):
                     s.add(x)
                     cnt += 1
@@ -45,14 +44,47 @@ class Sorter():
         else :
             self.stages.append(stage)
 
-    def simulate(step):
+    def simulate(self, step):
+        curInput = self.lineVals[-1]
+        curOutput = curInput
+
+        stage = self.stages[step]
+
+        for elem in stage:
+            lo = min(elem[0], elem[1]) - 1
+            hi = max(elem[0], elem[1]) - 1
+
+            out = elem[2].output((curInput[lo], curInput[hi]))
+
+            curOutput[lo], curOutput[hi] = out
+
+        self.lineVals.append(curOutput)
 
         
-    def sort(self):
-        self.lineVals = [self.inputs]
+    def sort(self, inputs):
+        self.inputs = inputs
+        self.lineVals = [list(self.inputs)]
 
         for i in xrange(self.numStages):
-            self.simulate(i):
+            self.simulate(i)
 
         self.outputs = self.lineVals[-1]
-        print self.outputs
+        return self.outputs
+
+    def does_it_sort(self):
+        bad = False
+        for i in xrange(1<<(self.numLines)):
+            if bad:
+                break
+            inputs = []
+            for j in xrange(self.numLines):
+                inputs.append((i>>j)&1)
+            out = self.sort(inputs)
+            for i in xrange(1, self.numLines):
+                if out[i-1] == 1 and out[i] == 0 : 
+                    print "Sorting Network fails on input: "
+                    print inputs
+                    bad = True
+                    break
+        if not bad:
+            print "You got yourself a valid Sorting Network!"
