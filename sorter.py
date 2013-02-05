@@ -30,6 +30,12 @@ class Sorter():
 
         return True
 
+    def disp(self):
+      for index, stage in enumerate(self.stages):
+        print "Stage %d:" % index
+        for elem in stage:
+          print elem[0], elem[1], elem[2]
+        print
 
     def add_stage(self, stage, verify = 0, index = -1):
         if (verify):
@@ -43,6 +49,23 @@ class Sorter():
             self.stages.insert(index, stage)
         else :
             self.stages.append(stage)
+
+    def set_all_comparators(self, comp):
+      for stage in self.stages:
+        for elem in stage:
+          elem[2] = comp
+
+    def comparator_swap(self):
+      bc = comparator.Comparator()
+      rev = comparator.ReverseComparator()
+      for stage in self.stages:
+        for elem in stage:
+          name = elem[2].__class__.__name__
+          assert name == "Comparator" or name == "ReverseComparator"
+          if name == "Comparator":
+            elem[2] = rev
+          else:
+            elem[2] = bc
 
     def simulate(self, step):
         curInput = self.lineVals[-1]
@@ -63,7 +86,7 @@ class Sorter():
         
     def sort(self, inputs):
         self.inputs = inputs
-        self.lineVals = [list(self.inputs)]
+        self.lineVals = [self.inputs]
 
         for i in xrange(self.numStages):
             self.simulate(i)
@@ -88,3 +111,29 @@ class Sorter():
                     break
         if not bad:
             print "You got yourself a valid Sorting Network!"
+
+    # One above another
+    def combine(self, sorter):
+      for stage in sorter.stages:
+        for elem in stage:
+          elem[0] += self.numLines
+          elem[1] += self.numLines
+
+      self.numLines += sorter.numLines
+
+      for i in xrange(sorter.numStages):
+          if i < self.numStages:
+            self.stages[i].extend(sorter.stages[i])
+
+          else :
+            self.stages.append(sorter.stages[i])
+
+      for stage in self.stages:
+        self.verify(stage)
+
+    # One after another
+    def join(self, sorter):
+      assert self.numLines == sorter.numLines
+
+      self.numStages += sorter.numStages
+      self.stages.extend(sorter.stages)
