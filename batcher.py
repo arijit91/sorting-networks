@@ -62,6 +62,6 @@ def get_batcher_network(n):
 
     return s
 
-x = get_batcher_network(8)
-x.disp()
+x = get_batcher_network(4)
 x.does_it_sort()
+x.display_ascii_art()

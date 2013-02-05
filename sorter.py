@@ -137,3 +137,49 @@ class Sorter():
 
       self.numStages += sorter.numStages
       self.stages.extend(sorter.stages)
+
+    def render(self, matrix):
+      for row in matrix:
+        for char in row:
+          print char,
+        print
+
+    def display_ascii_art(self):
+      width, height = 1, 2 * self.numLines
+      for stage in self.stages:
+        width += len(stage)
+      width += 2*len(self.stages)
+     
+      dispOutput = [['_' for j in xrange(width)] for i in xrange(height)]
+
+      for index in xrange(1, height, 2):
+          dispOutput[index] = [' ' for j in xrange(width)]
+
+      xpos = 1
+      for stage in self.stages:
+        for elem in stage:
+          lo = min(elem[0], elem[1]) - 1
+          hi = max(elem[0], elem[1]) - 1
+
+          for row in xrange(2*lo + 1, 2*hi + 1):
+            dispOutput[row][xpos] = '|'
+            if row == 2*lo+1 and elem[2].__class__.__name__ == "Comparator":
+                dispOutput[row][xpos] = '^'
+
+            if row == 2*hi and \
+                elem[2].__class__.__name__ == "ReverseComparator":
+
+                dispOutput[row][xpos] = 'v'
+
+          xpos += 1
+
+        xpos += 2
+      #dispOutput[1][1] = '|'
+      #dispOutput[2][1] = '|'
+
+      #dispOutput[1][3] = '|'
+      #dispOutput[2][3] = '|'
+      #dispOutput[3][3] = '|'
+      #dispOutput[4][3] = '|'
+
+      self.render(dispOutput)
