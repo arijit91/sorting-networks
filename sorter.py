@@ -1,5 +1,7 @@
 import sys
 import comparator
+import itertools
+import utils
 
 class Sorter():
     def __init__(self, numLines):
@@ -107,6 +109,7 @@ class Sorter():
                 if out[i-1] == 1 and out[i] == 0 : 
                     print "Sorting Network fails on input: "
                     print inputs
+                    print out
                     bad = True
                     break
         if not bad:
@@ -144,17 +147,42 @@ class Sorter():
           print char,
         print
 
+    def get_inversions_rating(self):
+      rating_sum = count = 0
+      for perm in itertools.permutations(range(self.numLines)):
+        inputs = list(perm)
+        out = self.sort(inputs)
+        rating_sum += utils.inversionCount(out)
+        count += 1
+      rating = rating_sum / float(count)
+      return rating
+
+    def get_maxinv_rating(self):
+      rating = -1
+      maxseq = []
+      for perm in itertools.permutations(range(self.numLines)):
+        inputs = list(perm)
+        out = self.sort(inputs)
+        new_rating = utils.inversionCount(out)
+        if rating < new_rating:
+          rating = new_rating
+          maxseq = inputs
+      return (rating, maxseq)
+      
+
     def display_ascii_art(self):
       width, height = 1, 2 * self.numLines
       for stage in self.stages:
         width += len(stage)
       width += 2*len(self.stages)
+      zigzag = [ "\\" , "/" ]
      
       dispOutput = [['_' for j in xrange(width)] for i in xrange(height)]
 
       for index in xrange(1, height, 2):
           dispOutput[index] = [' ' for j in xrange(width)]
-
+    
+      
       xpos = 1
       for stage in self.stages:
         for elem in stage:
@@ -170,6 +198,10 @@ class Sorter():
                 elem[2].__class__.__name__ == "ReverseComparator":
 
                 dispOutput[row][xpos] = 'v'
+            
+            if elem[2].__class__.__name__ == "FaultyComparator":
+
+                dispOutput[row][xpos] = zigzag[row % 2]
 
           xpos += 1
 
