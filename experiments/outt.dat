@@ -1,0 +1,1279 @@
+Number of inversions: 2258
+
+0 2258 92
+Number of inversions: 1819
+
+1 1819 81
+Number of inversions: 1665
+
+2 1665 68
+Number of inversions: 1337
+
+3 1337 65
+Number of inversions: 1219
+
+4 1219 59
+Number of inversions: 1119
+
+5 1119 59
+Number of inversions: 1054
+
+6 1054 59
+Number of inversions: 998
+
+7 998 59
+Number of inversions: 929
+
+8 929 59
+Number of inversions: 842
+
+9 842 51
+Number of inversions: 815
+
+10 815 47
+Number of inversions: 736
+
+11 736 32
+Number of inversions: 665
+
+12 665 32
+Number of inversions: 638
+
+13 638 32
+Number of inversions: 604
+
+14 604 26
+Number of inversions: 566
+
+15 566 26
+Number of inversions: 542
+
+16 542 26
+Number of inversions: 519
+
+17 519 26
+Number of inversions: 497
+
+18 497 26
+Number of inversions: 485
+
+19 485 26
+Number of inversions: 464
+
+20 464 22
+Number of inversions: 426
+
+21 426 19
+Number of inversions: 396
+
+22 396 19
+Number of inversions: 390
+
+23 390 19
+Number of inversions: 388
+
+24 388 19
+Number of inversions: 380
+
+25 380 19
+Number of inversions: 366
+
+26 366 17
+Number of inversions: 365
+
+27 365 17
+Number of inversions: 347
+
+28 347 16
+Number of inversions: 342
+
+29 342 16
+Number of inversions: 328
+
+30 328 16
+Number of inversions: 312
+
+31 312 16
+Number of inversions: 309
+
+32 309 16
+Number of inversions: 302
+
+33 302 16
+Number of inversions: 300
+
+34 300 16
+Number of inversions: 300
+
+35 300 16
+Number of inversions: 290
+
+36 290 13
+Number of inversions: 289
+
+37 289 13
+Number of inversions: 285
+
+38 285 13
+Number of inversions: 275
+
+39 275 13
+Number of inversions: 267
+
+40 267 13
+Number of inversions: 254
+
+41 254 13
+Number of inversions: 247
+
+42 247 13
+Number of inversions: 237
+
+43 237 13
+Number of inversions: 233
+
+44 233 13
+Number of inversions: 230
+
+45 230 13
+Number of inversions: 227
+
+46 227 13
+Number of inversions: 226
+
+47 226 13
+Number of inversions: 218
+
+48 218 13
+Number of inversions: 208
+
+49 208 13
+Number of inversions: 208
+
+50 208 13
+Number of inversions: 208
+
+51 208 13
+Number of inversions: 198
+
+52 198 13
+Number of inversions: 191
+
+53 191 13
+Number of inversions: 191
+
+54 191 13
+Number of inversions: 189
+
+55 189 13
+Number of inversions: 183
+
+56 183 13
+Number of inversions: 182
+
+57 182 13
+Number of inversions: 173
+
+58 173 11
+Number of inversions: 169
+
+59 169 11
+Number of inversions: 168
+
+60 168 11
+Number of inversions: 165
+
+61 165 11
+Number of inversions: 160
+
+62 160 11
+Number of inversions: 159
+
+63 159 11
+Number of inversions: 154
+
+64 154 10
+Number of inversions: 153
+
+65 153 10
+Number of inversions: 149
+
+66 149 10
+Number of inversions: 148
+
+67 148 10
+Number of inversions: 147
+
+68 147 10
+Number of inversions: 146
+
+69 146 10
+Number of inversions: 139
+
+70 139 9
+Number of inversions: 139
+
+71 139 9
+Number of inversions: 132
+
+72 132 9
+Number of inversions: 122
+
+73 122 9
+Number of inversions: 122
+
+74 122 9
+Number of inversions: 122
+
+75 122 9
+Number of inversions: 114
+
+76 114 9
+Number of inversions: 114
+
+77 114 9
+Number of inversions: 113
+
+78 113 9
+Number of inversions: 112
+
+79 112 9
+Number of inversions: 110
+
+80 110 9
+Number of inversions: 107
+
+81 107 9
+Number of inversions: 105
+
+82 105 9
+Number of inversions: 98
+
+83 98 7
+Number of inversions: 95
+
+84 95 7
+Number of inversions: 94
+
+85 94 7
+Number of inversions: 90
+
+86 90 7
+Number of inversions: 89
+
+87 89 7
+Number of inversions: 88
+
+88 88 7
+Number of inversions: 86
+
+89 86 7
+Number of inversions: 86
+
+90 86 7
+Number of inversions: 86
+
+91 86 7
+Number of inversions: 86
+
+92 86 7
+Number of inversions: 86
+
+93 86 7
+Number of inversions: 86
+
+94 86 7
+Number of inversions: 85
+
+95 85 7
+Number of inversions: 83
+
+96 83 7
+Number of inversions: 78
+
+97 78 7
+Number of inversions: 77
+
+98 77 7
+Number of inversions: 76
+
+99 76 7
+Number of inversions: 76
+
+100 76 7
+Number of inversions: 76
+
+101 76 7
+Number of inversions: 75
+
+102 75 7
+Number of inversions: 74
+
+103 74 7
+Number of inversions: 73
+
+104 73 7
+Number of inversions: 73
+
+105 73 7
+Number of inversions: 73
+
+106 73 7
+Number of inversions: 73
+
+107 73 7
+Number of inversions: 73
+
+108 73 7
+Number of inversions: 73
+
+109 73 7
+Number of inversions: 73
+
+110 73 7
+Number of inversions: 72
+
+111 72 7
+Number of inversions: 65
+
+112 65 4
+Number of inversions: 65
+
+113 65 4
+Number of inversions: 64
+
+114 64 4
+Number of inversions: 64
+
+115 64 4
+Number of inversions: 64
+
+116 64 4
+Number of inversions: 64
+
+117 64 4
+Number of inversions: 64
+
+118 64 4
+Number of inversions: 64
+
+119 64 4
+Number of inversions: 64
+
+120 64 4
+Number of inversions: 62
+
+121 62 4
+Number of inversions: 61
+
+122 61 4
+Number of inversions: 60
+
+123 60 4
+Number of inversions: 59
+
+124 59 4
+Number of inversions: 57
+
+125 57 4
+Number of inversions: 56
+
+126 56 4
+Number of inversions: 53
+
+127 53 4
+Number of inversions: 53
+
+128 53 4
+Number of inversions: 51
+
+129 51 4
+Number of inversions: 48
+
+130 48 4
+Number of inversions: 48
+
+131 48 4
+Number of inversions: 47
+
+132 47 4
+Number of inversions: 47
+
+133 47 4
+Number of inversions: 45
+
+134 45 4
+Number of inversions: 44
+
+135 44 4
+Number of inversions: 44
+
+136 44 4
+Number of inversions: 43
+
+137 43 4
+Number of inversions: 43
+
+138 43 4
+Number of inversions: 43
+
+139 43 4
+Number of inversions: 43
+
+140 43 4
+Number of inversions: 42
+
+141 42 4
+Number of inversions: 42
+
+142 42 4
+Number of inversions: 42
+
+143 42 4
+Number of inversions: 42
+
+144 42 4
+Number of inversions: 41
+
+145 41 4
+Number of inversions: 41
+
+146 41 4
+Number of inversions: 41
+
+147 41 4
+Number of inversions: 41
+
+148 41 4
+Number of inversions: 41
+
+149 41 4
+Number of inversions: 40
+
+150 40 4
+Number of inversions: 39
+
+151 39 4
+Number of inversions: 39
+
+152 39 4
+Number of inversions: 39
+
+153 39 4
+Number of inversions: 39
+
+154 39 4
+Number of inversions: 39
+
+155 39 4
+Number of inversions: 39
+
+156 39 4
+Number of inversions: 38
+
+157 38 4
+Number of inversions: 38
+
+158 38 4
+Number of inversions: 38
+
+159 38 4
+Number of inversions: 37
+
+160 37 4
+Number of inversions: 37
+
+161 37 4
+Number of inversions: 37
+
+162 37 4
+Number of inversions: 34
+
+163 34 4
+Number of inversions: 34
+
+164 34 4
+Number of inversions: 33
+
+165 33 4
+Number of inversions: 30
+
+166 30 3
+Number of inversions: 30
+
+167 30 3
+Number of inversions: 30
+
+168 30 3
+Number of inversions: 30
+
+169 30 3
+Number of inversions: 30
+
+170 30 3
+Number of inversions: 30
+
+171 30 3
+Number of inversions: 30
+
+172 30 3
+Number of inversions: 30
+
+173 30 3
+Number of inversions: 30
+
+174 30 3
+Number of inversions: 29
+
+175 29 3
+Number of inversions: 29
+
+176 29 3
+Number of inversions: 29
+
+177 29 3
+Number of inversions: 29
+
+178 29 3
+Number of inversions: 29
+
+179 29 3
+Number of inversions: 28
+
+180 28 3
+Number of inversions: 28
+
+181 28 3
+Number of inversions: 28
+
+182 28 3
+Number of inversions: 28
+
+183 28 3
+Number of inversions: 28
+
+184 28 3
+Number of inversions: 28
+
+185 28 3
+Number of inversions: 28
+
+186 28 3
+Number of inversions: 28
+
+187 28 3
+Number of inversions: 27
+
+188 27 3
+Number of inversions: 27
+
+189 27 3
+Number of inversions: 27
+
+190 27 3
+Number of inversions: 27
+
+191 27 3
+Number of inversions: 27
+
+192 27 3
+Number of inversions: 27
+
+193 27 3
+Number of inversions: 27
+
+194 27 3
+Number of inversions: 26
+
+195 26 3
+Number of inversions: 26
+
+196 26 3
+Number of inversions: 26
+
+197 26 3
+Number of inversions: 26
+
+198 26 3
+Number of inversions: 26
+
+199 26 3
+Number of inversions: 26
+
+200 26 3
+Number of inversions: 26
+
+201 26 3
+Number of inversions: 26
+
+202 26 3
+Number of inversions: 26
+
+203 26 3
+Number of inversions: 26
+
+204 26 3
+Number of inversions: 25
+
+205 25 3
+Number of inversions: 24
+
+206 24 3
+Number of inversions: 24
+
+207 24 3
+Number of inversions: 24
+
+208 24 3
+Number of inversions: 24
+
+209 24 3
+Number of inversions: 24
+
+210 24 3
+Number of inversions: 22
+
+211 22 3
+Number of inversions: 22
+
+212 22 3
+Number of inversions: 22
+
+213 22 3
+Number of inversions: 22
+
+214 22 3
+Number of inversions: 22
+
+215 22 3
+Number of inversions: 22
+
+216 22 3
+Number of inversions: 22
+
+217 22 3
+Number of inversions: 22
+
+218 22 3
+Number of inversions: 22
+
+219 22 3
+Number of inversions: 22
+
+220 22 3
+Number of inversions: 22
+
+221 22 3
+Number of inversions: 22
+
+222 22 3
+Number of inversions: 22
+
+223 22 3
+Number of inversions: 22
+
+224 22 3
+Number of inversions: 22
+
+225 22 3
+Number of inversions: 22
+
+226 22 3
+Number of inversions: 22
+
+227 22 3
+Number of inversions: 21
+
+228 21 3
+Number of inversions: 20
+
+229 20 3
+Number of inversions: 20
+
+230 20 3
+Number of inversions: 20
+
+231 20 3
+Number of inversions: 20
+
+232 20 3
+Number of inversions: 20
+
+233 20 3
+Number of inversions: 20
+
+234 20 3
+Number of inversions: 20
+
+235 20 3
+Number of inversions: 19
+
+236 19 3
+Number of inversions: 19
+
+237 19 3
+Number of inversions: 19
+
+238 19 3
+Number of inversions: 19
+
+239 19 3
+Number of inversions: 19
+
+240 19 3
+Number of inversions: 19
+
+241 19 3
+Number of inversions: 19
+
+242 19 3
+Number of inversions: 19
+
+243 19 3
+Number of inversions: 18
+
+244 18 3
+Number of inversions: 18
+
+245 18 3
+Number of inversions: 18
+
+246 18 3
+Number of inversions: 18
+
+247 18 3
+Number of inversions: 18
+
+248 18 3
+Number of inversions: 18
+
+249 18 3
+Number of inversions: 18
+
+250 18 3
+Number of inversions: 18
+
+251 18 3
+Number of inversions: 18
+
+252 18 3
+Number of inversions: 18
+
+253 18 3
+Number of inversions: 18
+
+254 18 3
+Number of inversions: 18
+
+255 18 3
+Number of inversions: 17
+
+256 17 3
+Number of inversions: 17
+
+257 17 3
+Number of inversions: 17
+
+258 17 3
+Number of inversions: 16
+
+259 16 3
+Number of inversions: 16
+
+260 16 3
+Number of inversions: 16
+
+261 16 3
+Number of inversions: 16
+
+262 16 3
+Number of inversions: 15
+
+263 15 3
+Number of inversions: 14
+
+264 14 3
+Number of inversions: 14
+
+265 14 3
+Number of inversions: 14
+
+266 14 3
+Number of inversions: 13
+
+267 13 3
+Number of inversions: 12
+
+268 12 3
+Number of inversions: 12
+
+269 12 3
+Number of inversions: 12
+
+270 12 3
+Number of inversions: 12
+
+271 12 3
+Number of inversions: 12
+
+272 12 3
+Number of inversions: 12
+
+273 12 3
+Number of inversions: 12
+
+274 12 3
+Number of inversions: 12
+
+275 12 3
+Number of inversions: 12
+
+276 12 3
+Number of inversions: 12
+
+277 12 3
+Number of inversions: 12
+
+278 12 3
+Number of inversions: 12
+
+279 12 3
+Number of inversions: 12
+
+280 12 3
+Number of inversions: 12
+
+281 12 3
+Number of inversions: 12
+
+282 12 3
+Number of inversions: 12
+
+283 12 3
+Number of inversions: 11
+
+284 11 3
+Number of inversions: 11
+
+285 11 3
+Number of inversions: 11
+
+286 11 3
+Number of inversions: 11
+
+287 11 3
+Number of inversions: 10
+
+288 10 2
+Number of inversions: 10
+
+289 10 2
+Number of inversions: 10
+
+290 10 2
+Number of inversions: 10
+
+291 10 2
+Number of inversions: 10
+
+292 10 2
+Number of inversions: 10
+
+293 10 2
+Number of inversions: 10
+
+294 10 2
+Number of inversions: 10
+
+295 10 2
+Number of inversions: 9
+
+296 9 1
+Number of inversions: 9
+
+297 9 1
+Number of inversions: 9
+
+298 9 1
+Number of inversions: 9
+
+299 9 1
+Number of inversions: 9
+
+300 9 1
+Number of inversions: 9
+
+301 9 1
+Number of inversions: 9
+
+302 9 1
+Number of inversions: 9
+
+303 9 1
+Number of inversions: 8
+
+304 8 1
+Number of inversions: 8
+
+305 8 1
+Number of inversions: 8
+
+306 8 1
+Number of inversions: 8
+
+307 8 1
+Number of inversions: 8
+
+308 8 1
+Number of inversions: 8
+
+309 8 1
+Number of inversions: 8
+
+310 8 1
+Number of inversions: 8
+
+311 8 1
+Number of inversions: 8
+
+312 8 1
+Number of inversions: 7
+
+313 7 1
+Number of inversions: 7
+
+314 7 1
+Number of inversions: 7
+
+315 7 1
+Number of inversions: 7
+
+316 7 1
+Number of inversions: 7
+
+317 7 1
+Number of inversions: 7
+
+318 7 1
+Number of inversions: 7
+
+319 7 1
+Number of inversions: 7
+
+320 7 1
+Number of inversions: 7
+
+321 7 1
+Number of inversions: 7
+
+322 7 1
+Number of inversions: 7
+
+323 7 1
+Number of inversions: 7
+
+324 7 1
+Number of inversions: 7
+
+325 7 1
+Number of inversions: 7
+
+326 7 1
+Number of inversions: 7
+
+327 7 1
+Number of inversions: 6
+
+328 6 1
+Number of inversions: 6
+
+329 6 1
+Number of inversions: 6
+
+330 6 1
+Number of inversions: 6
+
+331 6 1
+Number of inversions: 6
+
+332 6 1
+Number of inversions: 6
+
+333 6 1
+Number of inversions: 6
+
+334 6 1
+Number of inversions: 6
+
+335 6 1
+Number of inversions: 6
+
+336 6 1
+Number of inversions: 6
+
+337 6 1
+Number of inversions: 6
+
+338 6 1
+Number of inversions: 6
+
+339 6 1
+Number of inversions: 5
+
+340 5 1
+Number of inversions: 5
+
+341 5 1
+Number of inversions: 5
+
+342 5 1
+Number of inversions: 5
+
+343 5 1
+Number of inversions: 5
+
+344 5 1
+Number of inversions: 5
+
+345 5 1
+Number of inversions: 5
+
+346 5 1
+Number of inversions: 5
+
+347 5 1
+Number of inversions: 5
+
+348 5 1
+Number of inversions: 5
+
+349 5 1
+Number of inversions: 5
+
+350 5 1
+Number of inversions: 5
+
+351 5 1
+Number of inversions: 5
+
+352 5 1
+Number of inversions: 5
+
+353 5 1
+Number of inversions: 5
+
+354 5 1
+Number of inversions: 5
+
+355 5 1
+Number of inversions: 4
+
+356 4 1
+Number of inversions: 4
+
+357 4 1
+Number of inversions: 4
+
+358 4 1
+Number of inversions: 4
+
+359 4 1
+Number of inversions: 4
+
+360 4 1
+Number of inversions: 4
+
+361 4 1
+Number of inversions: 4
+
+362 4 1
+Number of inversions: 4
+
+363 4 1
+Number of inversions: 4
+
+364 4 1
+Number of inversions: 4
+
+365 4 1
+Number of inversions: 3
+
+366 3 1
+Number of inversions: 3
+
+367 3 1
+Number of inversions: 3
+
+368 3 1
+Number of inversions: 3
+
+369 3 1
+Number of inversions: 3
+
+370 3 1
+Number of inversions: 3
+
+371 3 1
+Number of inversions: 3
+
+372 3 1
+Number of inversions: 3
+
+373 3 1
+Number of inversions: 3
+
+374 3 1
+Number of inversions: 3
+
+375 3 1
+Number of inversions: 3
+
+376 3 1
+Number of inversions: 3
+
+377 3 1
+Number of inversions: 3
+
+378 3 1
+Number of inversions: 3
+
+379 3 1
+Number of inversions: 3
+
+380 3 1
+Number of inversions: 3
+
+381 3 1
+Number of inversions: 3
+
+382 3 1
+Number of inversions: 3
+
+383 3 1
+Number of inversions: 3
+
+384 3 1
+Number of inversions: 3
+
+385 3 1
+Number of inversions: 3
+
+386 3 1
+Number of inversions: 3
+
+387 3 1
+Number of inversions: 3
+
+388 3 1
+Number of inversions: 3
+
+389 3 1
+Number of inversions: 3
+
+390 3 1
+Number of inversions: 3
+
+391 3 1
+Number of inversions: 3
+
+392 3 1
+Number of inversions: 3
+
+393 3 1
+Number of inversions: 3
+
+394 3 1
+Number of inversions: 3
+
+395 3 1
+Number of inversions: 2
+
+396 2 1
+Number of inversions: 2
+
+397 2 1
+Number of inversions: 2
+
+398 2 1
+Number of inversions: 2
+
+399 2 1
+Number of inversions: 2
+
+400 2 1
+Number of inversions: 2
+
+401 2 1
+Number of inversions: 2
+
+402 2 1
+Number of inversions: 2
+
+403 2 1
+Number of inversions: 2
+
+404 2 1
+Number of inversions: 2
+
+405 2 1
+Number of inversions: 2
+
+406 2 1
+Number of inversions: 2
+
+407 2 1
+Number of inversions: 1
+
+408 1 1
+Number of inversions: 1
+
+409 1 1
+Number of inversions: 1
+
+410 1 1
+Number of inversions: 1
+
+411 1 1
+Number of inversions: 1
+
+412 1 1
+Number of inversions: 1
+
+413 1 1
+Number of inversions: 1
+
+414 1 1
+Number of inversions: 1
+
+415 1 1
+Number of inversions: 1
+
+416 1 1
+Number of inversions: 1
+
+417 1 1
+Number of inversions: 1
+
+418 1 1
+Number of inversions: 1
+
+419 1 1
+Number of inversions: 1
+
+420 1 1
+Number of inversions: 1
+
+421 1 1
+Number of inversions: 1
+
+422 1 1
+Number of inversions: 1
+
+423 1 1
+Number of inversions: 1
+
+424 1 1
+Number of inversions: 1
+
+425 1 1
+100 426

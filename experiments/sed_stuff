@@ -1,0 +1,1 @@
+cat out.dat | sed s/Stage:\ // | sed s/Inversions:\ // | sed s/Dist:\ //
