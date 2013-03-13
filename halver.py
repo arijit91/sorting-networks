@@ -9,8 +9,8 @@ def create_halver(numLines, epsilon):
 
   halver = Sorter(numLines)
   mu = 1. / epsilon - 1
-  d = 10 #something gen for now
-  for i in range(0,d):
+  d = 20 #something gen for now
+  for i in range(d):
     halver.add_stage(random_bipartite_stage(numLines), VERIFY)
   
   return halver
@@ -18,8 +18,8 @@ def create_halver(numLines, epsilon):
 def random_bipartite_stage(numLines):
   bc = Comparator()
   stage = []
-  setA = [i+1 for i in range(0,numLines/2)]
-  setB = [i+1 + (numLines/2) for i in range(0,numLines/2)]
+  setA = [i+1 for i in range(numLines/2)]
+  setB = [i+1 + (numLines/2) for i in range(numLines/2)]
   shuffle(setA)
   shuffle(setB)
   #print setA
