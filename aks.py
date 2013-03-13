@@ -1,5 +1,6 @@
 import sys
 import random
+import separator
 
 ARGS_NEEDED = 1
 USAGE_STRING = 'python aks.py'
@@ -65,6 +66,8 @@ def get_outputs_for_node(node):
         outputs.append(wire_val_list[sy:])
 
         return outputs
+
+    else:
 
     return [], [], []
         
