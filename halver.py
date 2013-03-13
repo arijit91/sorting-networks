@@ -30,6 +30,4 @@ def random_bipartite_stage(numLines):
   print stage
   return stage
     
-halver = create_halver(20, 0.1)
-halver.display_ascii_art()
 
