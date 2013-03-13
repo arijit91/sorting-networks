@@ -6,12 +6,14 @@ from random import *
 VERIFY = 1
 
 def create_halver(numLines, epsilon):
-    
+  assert numLines % 2 == 0
+
   halver = Sorter(numLines)
   mu = 1 / epsilon
   d = 5 #something
   for i in range(0,d):
     halver.add_stage(random_bipartite_stage(numLines), VERIFY)
+  
   return halver
     
 def random_bipartite_stage(numLines):
@@ -29,5 +31,3 @@ def random_bipartite_stage(numLines):
   stage = tuple(stage)
   print stage
   return stage
-    
-
