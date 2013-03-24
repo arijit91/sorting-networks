@@ -210,6 +210,9 @@ def main():
     print "Output:"
     print outputs
 
-    print utils.inversionCount(outputs)
+    #print utils.inversionCount(outputs)
+
+    print "Number of inversions:"
+    print utils.inversionCountFast(outputs)
 
 main()

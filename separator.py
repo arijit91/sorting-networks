@@ -23,6 +23,7 @@ class Separator():
 
   def separate(self, inputs):
       h0 = halver.create_halver(self.a, self.eps)
+
       b0 = h0.sort([y for x, y in inputs])
 
       par, lc, rc = [], [], []
