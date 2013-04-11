@@ -19,7 +19,7 @@ def init():
     if argc != ARGS_NEEDED:
         print "Usage: ", USAGE_STRING
 
-    d = 12
+    d = 20
     n = 2**d
     t = 0
     alpha, omega = 0, 0

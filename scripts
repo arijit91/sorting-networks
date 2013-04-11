@@ -1,0 +1,2 @@
+1) Find number of inversions for given number of matchings in AKS. Average over 10 runs.
+for j in `seq 0 100` ; do echo $j; ./set_matchings $j; for i in `seq 1 10`; do python aks.py ; done | grep inversions -A 1 | grep -v inve > out && python avg.py >> vals ; done

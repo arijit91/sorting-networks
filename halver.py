@@ -1,9 +1,9 @@
 from comparator import *
 from sorter import *
 from random import *
+from settings import *
 
 VERIFY = 1
-NUM_MATCHINGS = 20
 
 def create_halver(numLines, epsilon):
   assert numLines % 2 == 0
