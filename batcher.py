@@ -1,7 +1,6 @@
 import sys
 from sorter import *
 from comparator import *
-
 VERIFY = 1
 
 bc = Comparator()
